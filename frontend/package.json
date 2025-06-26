@@ -1,0 +1,48 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "A fitness tracker application built with React and TypeScript.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && npm start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.87",
+    "@types/react-dom": "^17.0.26",
+    "@types/react-router-dom": "^5.3.3"
+  },
+  "keywords": [
+    "fitness",
+    "tracker",
+    "react",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
