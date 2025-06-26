@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Tracker.css'; // <-- Add this line
+import './Tracker.css'; 
 
 // Tracker component
 const Tracker = ({ days, setDays }) => {
